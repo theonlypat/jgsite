@@ -11,18 +11,19 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
           <div class="navbar-inner">
             <div class="container">
+                <a class="hidden-desktop pull-left" href="#"><img class="logoPhone" src="img/jglogomobile2.png" alt="" /></a>
               <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
               <div class="nav-collapse collapse">
-                <ul class="nav">
+                <ul class="nav pull-right">
                   <li class="active">
-                    <a href="#">Home</a>
+                    <a href="#" class="homeMenu">Home</a>
                   </li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Photography</a></li>
+                  <li><a href="#" class="portfolioMenu">Portfolio</a></li>
+                  <li><a href="#" class="photographyMenu">Photography</a></li>
                 </ul>
               </div>
             </div>
@@ -30,10 +31,93 @@
         </div>
       </header>
     <div class="container beginning">
-      <div class="page-header">
-      <h1>Hello, world!</h1>
+      <div class="row">
+        <div class="span3 logo visible-desktop freeze">
+          <img src="img/jglogofinal.png" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="well-inverse visible-phone">
+          <p>Sound and Lighting Designer originally from Salt Lake City, UT living in Boston, MA.</p>
+        </div>
+        <div class="span12 section homeImage main">
+          <img src="http://jeremygoldenberg.com/home.jpg" width="100%" />
+        </div>
+      </div>
+      <div class="row portfolio">
+        <div class="span12">
+          <div class="span4">
+            <div class="portfolioTop">
+              <h2>Portfolio</h2>
+            </div>
+            <div class="project">
+            <img src="http://jeremygoldenberg.com/12am.jpg" class="poster-vrt pull-left img-rounded"/>
+           <h4>12AM (Twelve Angry Men)</h4>
+           <p><strong>Sound Designer</strong><br>
+            <em>Director:</em> Paulo DiFabio<br>
+            <em>Lighting Designer:</em> Gary Slootskiy<br>
+            <em>Stage Manager:</em> Edda Baruch</p>
+          </div>
+          <div class="project">
+            <img src="http://jeremygoldenberg.com/whimsy2.jpg" class="poster-vrt pull-left img-rounded" />
+            <h4>Whimsy</h4>
+            <p><strong>Lighting Designer, Sound Designer, Master Electrician</strong><br>
+              <em>Technical Director:</em> Darin Hathaway<br>
+              <em>Choreographer:</em> Janette Sawaya</p>
+          </div>
+          <div class="project">
+            <img src="http://jeremygoldenberg.com/merrily.jpg" class="poster-vrt pull-left img-rounded" />
+            <h4>Merrily We Roll Along</h4>
+            <p><strong>Live Mix Engineer</strong><br>
+              <em>Sound Designer:</em> Andrew Duncan Will<br>
+              <em>Assistant Sound Designer:</em> Liz Walbridge<br>
+              <em>Director:</em> Jim Petoza<br>
+              <em>Book Director:</em> David Gram<br>
+              <em>Music Director:</em> Matthew Stern<br>
+              <em>Choreographer:</em> Judith Chaffee</p>
+            </div>
+            <div class="project">
+              <img src="http://jeremygoldenberg.com/recording.png" class="poster-hzt img-rounded" />
+              <p>Sharon Netzley - Classical Guitar</p>
+              <audio controls>
+                <source src="" type"audio/ogg">
+                <source src="" type="audio/mpeg">
+                <source src="" type="audio/wav">
+              </audio>
+              <p>Sharon Netzley - Classical Guitar</p>
+              <audio controls>
+                <source src="" type"audio/ogg">
+                <source src="" type="audio/mpeg">
+                <source src="" type="audio/wav">
+              </audio>
+              <p>Bowry Boys - Washed Away (all muy lovin')</p>
+              <audio controls>
+                <source src="" type"audio/ogg">
+                <source src="" type="audio/mpeg">
+                <source src="" type="audio/wav">
+              </audio>
+             </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12 photography">
+        <p>Testing</p>
+        </div>
+      </div>
+      <div class="row contact">
+        <div class="span3">
+          <img src="https://sphotos-a.xx.fbcdn.net/hphotos-ash4/419878_2692749088798_1271699333_n.jpg" class="img-circle" />
+        </div>
+          <div class="span9 center">
+            <p style="font-weight:800; line-height:5px;">CONTACT</p>
+            <p><i class="icon-envelope icon-white"></i> Email: <a href="mailto:jeremy@jeremygoldenberg.com">jeremy@jeremygoldenberg.com</a><br>
+            <i class="icon-user icon-white"></i> Phone: <a href="call:8016471043">801-647-1043</a></p>
+          </div>
+      </div>
     </div>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/addscript.js"></script>
   </body>
 </html>

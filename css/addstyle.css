@@ -1,4 +1,4 @@
-/*--html {
+body {
 background: -webkit-radial-gradient(black 15%, transparent 16%) 0 0,
 -webkit-radial-gradient(black 15%, transparent 16%) 8px 8px,
 -webkit-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
@@ -20,13 +20,113 @@ radial-gradient(black 15%, transparent 16%) 0 0,
 radial-gradient(black 15%, transparent 16%) 8px 8px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
+background-color:#333;
 background-size:16px 16px;	
-}--*/
-body {
-	background: url('http://jeremygoldenberg.com/home.jpg') fixed no-repeat top center;
-	background-size:cover;
 }
-.beginning {
-	padding:40px 0;
+.center {
+	text-align:center;
+}
+@media (min-width: 980px) {
+	.beginning {
+		padding:40px 0;
+	}
+	.freeze {
+		position:fixed;
+	}
+	.main {
+	}
+}
+@media (min-width:768px) and (max-width:979px) {
+	.beginning {
+		padding:0;
+	}
+	.logoPhone {
+		height:50px;
+		padding:2px;
+	}
+}
+	.logo {
+		background:rgba(250,250,250,0.15);
+		margin-top:0px;
+		padding-top:0px;
+	}
+@media (max-width: 767px) {
+	.logoPhone {
+		height:35px;
+		padding:2px;
+	}
+	.main img {
+		
+	}
+	.well-inverse {
+		text-align:center;
+		margin-bottom:0px!important;
+		border-bottom-right-radius:0px!important;
+		border-bottom-left-radius:px!important;
+	}
+	.portfolioTop {
+		background-color:#666;
+		color:#eee;
+		padding:5px 0;
+		margin:0;
+	}
+	.project {
+		clear:both;
+		padding:10px 0;
+	}
+	.poster-vrt {
+		height:200px;
+		padding:5px;
+	}
+	.poster-hzt {
+		height:140px;
+		padding:5px;
+	}
+	.portfolio h4 {
+		margin:10px 5px 0;
+		font-style:italic;
+	}
+	.portfolio p {
+		margin:15px 5px 0;
+	}
+	.contact {
+		background-color:#1b1b1b;
+		border-bottom-left-radius:4px;
+		border-bottom-right-radius:4px;
+		border:1px solid #252525;
+		-webkit-box-shadow: inset 0 1px 1px rgba(250, 250, 250, 0.05);
+  		-moz-box-shadow: inset 0 1px 1px rgba(250, 250, 250, 0.05);
+  		box-shadow: inset 0 1px 1px rgba(250, 250, 250, 0.05);
+	}
+	.contact img {
+		width:100px;
+		height:100px;
+		float:left;
+		padding:10px;
+	}
+	.contact p {
+		margin:20px 0 0;
+	}
+}
+.portfolio, .photography {
+	display:none;
+	background-color:#fff;
+	height:100%;
+	color:#333;
+	text-align:center;
+}
+.section {
+}
+.well-inverse {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #1b1b1b;
+  border: 1px solid #252525;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(250, 250, 250, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(250, 250, 250, 0.05);
+  box-shadow: inset 0 1px 1px rgba(250, 250, 250, 0.05);
 }
